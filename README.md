@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Tic-Tac-Toe project was created by ChatGPT as a collaborative effort with the user. It is a simple yet interactive game that allows a human player to play against an AI opponent. The game features adjustable difficulty and visual effects when the game ends.
 
-## Available Scripts
+## How We Made It
 
-In the project directory, you can run:
+The project was built using React and follows a step-by-step process to create a fully functional Tic-Tac-Toe game.
 
-### `npm start`
+### 1. Basic Setup and Board Rendering
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We started by creating a new React app and setting up the necessary components and state variables to render the game board.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Human Player Interaction
 
-### `npm test`
+Next, we added event handling for the human player to make their move on the board by clicking a cell.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. AI Opponent
 
-### `npm run build`
+To make the game more challenging, we implemented an AI opponent using the minimax algorithm, which plays optimally and makes it impossible to beat the computer. The best outcome a human player can achieve against the AI is a draw.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Adjustable Difficulty
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To make the game more enjoyable for players of all skill levels, we added a difficulty slider that allows users to adjust the difficulty of the game. The slider controls the probability of the computer making a random move instead of the optimal one. The higher the slider value, the easier the game will be, as the computer will make more random moves.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5. Game End Visual Effects
 
-### `npm run eject`
+Finally, we added visual effects to indicate the end of the game. When the human player wins, a full-screen confetti effect is displayed, and when the human player loses, the screen blinks red.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Run the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+```
+git clone https://github.com/kmcrawford/tic-tac-toe.git
+```
+2. Change into the project directory:
+```
+cd tic-tac-toe
+```
+3. Install the dependencies:
+```
+npm install
+```
+4. Start the development server:
+```
+npm start
+``` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app will open in your default web browser at `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributions
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was a joint effort between ChatGPT and the user. We appreciate any contributions, bug reports, or feature suggestions. Feel free to open an issue or create a pull request to improve the game!
