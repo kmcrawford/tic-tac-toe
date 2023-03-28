@@ -20,7 +20,7 @@ To make the game more challenging, we implemented an AI opponent using the minim
 
 ### 4. Adjustable Difficulty
 
-To make the game more enjoyable for players of all skill levels, we added a difficulty slider that allows users to adjust the difficulty of the game. The slider controls the probability of the computer making a random move instead of the optimal one. The higher the slider value, the easier the game will be, as the computer will make more random moves.
+To make the game more enjoyable for players of all skill levels, we added a difficulty slider that allows users to adjust the difficulty of the game. The slider controls the probability of the computer making a random move instead of the optimal one. The lower the slider value, the easier the game will be, as the computer will make more random moves.
 
 ### 5. Game End Visual Effects
 
